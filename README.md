@@ -35,7 +35,7 @@ No student is found for id=1000.\
 > ~$ 10001 10 10 5 8\
 Points updated.
 
-- **find** - This command print student's earned points. Command take studentID as a user input of the student and print details in this format: id points: Java=%d; DSA=%d; Databases=%d; Spring=%d where %d is the respective number of points earned by the student. 
+- **find** - This command print student's earned points. Command take studentID of the student as user input and print details in this format: <id> points: Java=%d; DSA=%d; Databases=%d; Spring=%d where %d is the respective number of points earned by the student. 
 > ~$ find\
 Enter an id or 'back' to return:\
 > ~$ 10000\
@@ -103,3 +103,12 @@ Hello, %FULL_USER_NAME%! You have accomplished our %COURSE_NAME% course!
 
 Below the list, program will print the total number of students that should be notified
 
+Example:
+> ~$ notify\
+To: johnd@email.net\
+Re: Your Learning Progress\
+Hello, John Doe! You have accomplished our Java course!\
+To: johnd@email.net\
+Re: Your Learning Progress\
+Hello, John Doe! You have accomplished our DSA course!\
+Total 1 students have been notified.
